@@ -1,0 +1,11 @@
+
+State Machine - |UART_to_SPI|state
+Name state.state_end state.transfer state.rd_sda_d state.rd_sda state.rd_wait state.rd_nss_d state.rd_nss state.none 
+state.none 0 0 0 0 0 0 0 0 
+state.rd_nss 0 0 0 0 0 0 1 1 
+state.rd_nss_d 0 0 0 0 0 1 0 1 
+state.rd_wait 0 0 0 0 1 0 0 1 
+state.rd_sda 0 0 0 1 0 0 0 1 
+state.rd_sda_d 0 0 1 0 0 0 0 1 
+state.transfer 0 1 0 0 0 0 0 1 
+state.state_end 1 0 0 0 0 0 0 1 

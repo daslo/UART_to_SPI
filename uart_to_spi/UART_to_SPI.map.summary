@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Dec 06 22:39:05 2018
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : UART_to_SPI
+Top-level Entity Name : UART_to_SPI
+Family : Cyclone II
+Total logic elements : 115
+    Total combinational functions : 115
+    Dedicated logic registers : 56
+Total registers : 56
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
